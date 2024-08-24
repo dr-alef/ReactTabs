@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #1E88E5;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.tab.active {
+  border-bottom: 3px solid #FFC107;
+}
+
+.tab:hover {
+  background-color: #1E88E5;
+}
+
+.tab-content {
+  background-color: #1E88E5;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
